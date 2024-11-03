@@ -27,7 +27,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 10, 20, 30, 40, 50, 60 };
+        int[] arr = { 5, 2, 8, 1, 9 };
         int n = arr.length;
 
         long startTime = System.nanoTime(); // Start time measurement
