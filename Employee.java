@@ -1,3 +1,5 @@
+import payrollSystem.Employee;
+import payrollSystem.SalariedEmployee;
 
 public class Employee {
     private int employeeId;
