@@ -2,7 +2,7 @@ package CIA_1_Practical;
 
 import java.util.Scanner;
 
-public class MatrixRotation {
+public class MatrixRotation {2
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows for the matrix:");
