@@ -145,7 +145,7 @@ public class Libarary_management {
         perBook.setAuthor("Times of India");
         perBook.setEdition(1);
         perBook.setIssueFrequency("Weekly");
-
+        IssueBook(102);
         displayBooks(refBook, ficBook, perBook);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the book id to issue the book");
