@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 interface WaterConservationSystem {
     int calculateTrappedWater(int[] blockHeights);
 }
@@ -38,7 +40,15 @@ class CityBlockConservation extends RainySeasonConservation {
 
     public static void main(String[] args) {
         CityBlockConservation conservation = new CityBlockConservation();
-        int[] blockHeights = { 3, 0, 2, 0, 4 };
-        System.out.println("Trapped Water: " + conservation.calculateTrappedWater(blockHeights)); 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of blocks:");
+        int n = scanner.nextInt();
+        int[] blockHeights = new int[n];
+        System.out.println("Enter the heights of the blocks:");
+        for (int i = 0; i < n; i++) {
+            blockHeights[i] = scanner.nextInt();
+        }
+        scanner.close();
+        System.out.println("Trapped Water: " + conservation.calculateTrappedWater(blockHeights));
     }
 }

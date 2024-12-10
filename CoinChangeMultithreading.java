@@ -1,4 +1,3 @@
-package Lab_6;
 
 import java.util.concurrent.locks.ReentrantLock;
 
